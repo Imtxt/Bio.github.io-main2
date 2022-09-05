@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Los mexicas by Tadeo Arreguin</title>
+	<link rel="stylesheet" href="./Css/Main.css">
+	<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+	<meta name="theme-color" content="#5b6abf">
+	<link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Piedra_del_Sol_en_MNA.jpg/800px-Piedra_del_Sol_en_MNA.jpg">
+	<meta content="Mexicas" property="og:title" />
+	<meta content="o" property="og:description" />
+	<meta content="Los mexicas" name="description" />
+	<link rel="canonical" href="./index.html" />
+	<meta property="og:site_name" content="Mexicas" />
+	<meta property="og:image" content="https://reven208.github.io/Bio.github.io/Assets/Avatar.Png">
+	<meta property="og:image:type" content="image/png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+</head>
+
+<body >
+	<div class="Notificacion">
+		<div class="Notificacion-Item">
+		  <img src="./Assets/Close.webp" alt="close" class="close">
+		  <img src="https://www.unionjalisco.mx/wp-content/uploads/2021/05/cultura-mexica-segundo.jpg.jpg" alt="" id="avt" class="avatar">
+		  <br>
+		  <br>
+
+		  <div class="Info">
+			<p id="ng" class="Info">Resumen por Santiago Guerrero Botello, Tadeo Arreguin Raya,Alejandro Sanchez Murillo,Isaac Hernandez Lara y Victor Alexander Lopez Bocanegra </p>
+			<br>
+			<p id="act" class="Info">Resumen de los Mexicas: Los mexicas, llamados en la historiografía tradicional aztecas, ​ fueron un pueblo mesoamericano de filiación nahua que fundó México-Tenochtitlan.</p>
+		</div>
+		</div>
+	  </div>
+	<div class="fullscreen">
+	
+		<div class="Wallpaper" style="background-image: url(https://c.tenor.com/PnD7UmGzg9EAAAAd/tlaloc-curiosamente.gif);">
+			<div class="center">
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Reconstruction_of_Tenochtitlan2006.jpg/800px-Reconstruction_of_Tenochtitlan2006.jpg" alt="" id="avt" class="avatar">
+				<div class="sectioninfo">
+					<h1 id="m" class="Title">Los Mexicas</h1>
+				
+					<div class="Info">
+						<p id="ng" class="Info">Mexicas o Aztecas</p>
+						<br>
+						<p id="act" class="Info">Preguntas....  </p>
+						<li class="Sct">Quienes son los Mexicas?Los mexicas, llamados aztecas, ​ fueron un pueblo mesoamericano de filiación nahua que fundó México-Tenochtitlan.</li>
+						<li class="Sct">Donde vivieron? Mesoamérica</li>
+						<li class="Sct">Que dioses tienen? Tlaloc, Chalchiuhtlicue Tezcatlipoca,Quetzalcóatly mas.</li>
+						<li class="Sct">Cual es el origen de la vida segun los Mexicas?los dioses estaban en el sol y decidieron hacer los humanos. </li>
+						<br>
+						<p id="ngg" class="Info">Los mexicas fueron la sociedad que dominaba la mayor parte del territorio mesoamericano al momento de la conquista española. </p>
+					</div>
+
+				</div>
+				<br>
+
+
+
+
+
+
+			</div>
+
+		</div>
+
+	</div>
+
+
+<audio src="./Assets/y2mate.com - Tonantzin.mp3" id="Tonantzin" loop></audio>
+</body>
+<script>
+	
+
+function penerico(){
+	
+	var Tonantzin = document.getElementById("Tonantzin");
+	Tonantzin.volume = 0.50;
+	Tonantzin.play();
+	
+}
+function Abre() {
+  $("body").addClass("Abierto");
+}
+function Cierra() {
+  $("body").removeClass("Abierto Quitar");
+  penerico();
+}
+function Cierraeldiv() {
+  $("body").addClass("Quitar");
+  setTimeout(closePopup, 200);
+}
+
+$(".Notificacion .close").on("click", function () {
+  Cierra();
+});
+
+Abre();
+
+
+function copyToClipboard(text) {
+  window.prompt("Copea esto con ctrl + c", text);
+}
+</script>
+</html>
